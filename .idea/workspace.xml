@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0a54d1d-83d4-4027-ba0f-f4f697b82cca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/Lesson_02.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/Lesson_02.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/NLP/Lesson_01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/NLP/Lesson_01.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +135,8 @@
       <workItem from="1577107541891" duration="2601000" />
       <workItem from="1577153972287" duration="695000" />
       <workItem from="1577155957554" duration="62000" />
-      <workItem from="1577156182811" duration="12612000" />
+      <workItem from="1577156182811" duration="26188000" />
+      <workItem from="1577282430192" duration="13642000" />
     </task>
     <servers />
   </component>
@@ -155,26 +157,34 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="827" key="GridCell.Tab.0.bottom" timestamp="1577156586665">
+    <state x="552" y="198" key="#Inspections" timestamp="1577265937345">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="827" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577156586665" />
-    <state width="1877" height="827" key="GridCell.Tab.0.center" timestamp="1577156586665">
+    <state x="552" y="198" key="#Inspections/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577265937345" />
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577264701982">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="827" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577156586665" />
-    <state width="1877" height="827" key="GridCell.Tab.0.left" timestamp="1577156586665">
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577264701982" />
+    <state width="1877" height="827" key="GridCell.Tab.0.bottom" timestamp="1577282400445">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="827" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577156586665" />
-    <state width="1877" height="827" key="GridCell.Tab.0.right" timestamp="1577156586665">
+    <state width="1877" height="827" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577282400445" />
+    <state width="1877" height="827" key="GridCell.Tab.0.center" timestamp="1577282400445">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="827" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577156586665" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1577176187318">
+    <state width="1877" height="827" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577282400445" />
+    <state width="1877" height="827" key="GridCell.Tab.0.left" timestamp="1577282400445">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577176187318" />
+    <state width="1877" height="827" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577282400445" />
+    <state width="1877" height="827" key="GridCell.Tab.0.right" timestamp="1577282400445">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="827" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577282400445" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1577266071726">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577266071726" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NLP_Learning$ETA.coverage" NAME="ETA Coverage Results" MODIFIED="1576746908758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/python" />

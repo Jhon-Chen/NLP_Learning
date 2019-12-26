@@ -1,6 +1,7 @@
 <component name="ProjectDictionaryState">
   <dictionary name="Administrator">
     <words>
+      <w>datasource</w>
       <w>dlat</w>
       <w>dlon</w>
       <w>douban</w>
@@ -8,10 +9,12 @@
       <w>froninter</w>
       <w>grapg</w>
       <w>haversine</w>
+      <w>jupyters</w>
       <w>pathes</w>
       <w>probablity</w>
       <w>probaility</w>
       <w>sklearn</w>
+      <w>tfidf</w>
     </words>
   </dictionary>
 </component>
