@@ -1,6 +1,7 @@
 <component name="ProjectDictionaryState">
   <dictionary name="Administrator">
     <words>
+      <w>argmax</w>
       <w>datasource</w>
       <w>dlat</w>
       <w>dlon</w>
@@ -15,6 +16,9 @@
       <w>probaility</w>
       <w>sklearn</w>
       <w>tfidf</w>
+      <w>traindata</w>
+      <w>vectorize</w>
+      <w>viterbi</w>
     </words>
   </dictionary>
 </component>
