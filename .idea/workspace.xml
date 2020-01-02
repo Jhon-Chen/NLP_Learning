@@ -4,7 +4,8 @@
     <list default="true" id="d0a54d1d-83d4-4027-ba0f-f4f697b82cca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes/Lesson_03.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Lesson_03.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/TX_nlp/01_POS_Tagging.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/TX_nlp/01_POS_Tagging.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/Project_01.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Project_01.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,7 @@
   </component>
   <component name="JupyterTrust" id="292eae7f-b70f-49d9-8147-064e937bcd27">
     <option name="files">
+      <option value="Artificial_Intelligence_For_NLP\Lesson_03.ipynb" />
       <option value="Artificial_Intelligence_For_NLP\NLP\Lesson_01.ipynb" />
       <option value="Artificial_Intelligence_For_NLP\TX_nlp\01_POS_Tagging.ipynb" />
     </option>
@@ -39,9 +41,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/TX_nlp" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,12 +54,13 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Git\NLP_Learning\Artificial_Intelligence_For_NLP\TX_nlp" />
-      <recent name="C:\Users\Administrator\Git\NLP_Learning\Artificial_Intelligence_For_NLP\Data" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Git\NLP_Learning\Artificial_Intelligence_For_NLP\NLP" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop" />
+      <recent name="C:\Users\Administrator\Git\NLP_Learning\Artificial_Intelligence_For_NLP\TX_nlp" />
+      <recent name="C:\Users\Administrator\Git\NLP_Learning\Artificial_Intelligence_For_NLP\Data" />
     </key>
   </component>
   <component name="RunManager" selected="Python.1">
@@ -148,7 +152,12 @@
       <workItem from="1577156182811" duration="26188000" />
       <workItem from="1577282430192" duration="20803000" />
       <workItem from="1577595000681" duration="25547000" />
-      <workItem from="1577698485283" duration="9130000" />
+      <workItem from="1577698485283" duration="16136000" />
+      <workItem from="1577802892330" duration="15517000" />
+      <workItem from="1577934718015" duration="652000" />
+      <workItem from="1577935554410" duration="65000" />
+      <workItem from="1577935677777" duration="95000" />
+      <workItem from="1577935814227" duration="2622000" />
     </task>
     <servers />
   </component>
@@ -177,22 +186,42 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577264701982" />
-    <state width="1877" height="827" key="GridCell.Tab.0.bottom" timestamp="1577282400445">
+    <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1577768752518">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="827" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577282400445" />
-    <state width="1877" height="827" key="GridCell.Tab.0.center" timestamp="1577282400445">
+    <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577768752518" />
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1577935759471">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="827" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577282400445" />
-    <state width="1877" height="827" key="GridCell.Tab.0.left" timestamp="1577282400445">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577935759471" />
+    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1577935759471">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="827" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577282400445" />
-    <state width="1877" height="827" key="GridCell.Tab.0.right" timestamp="1577282400445">
+    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577935759471" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1577935759471">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="827" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577282400445" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577935759471" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1577935759471">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577935759471" />
+    <state width="1877" height="362" key="GridCell.Tab.1.bottom" timestamp="1577934346497">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="362" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577934346497" />
+    <state width="1877" height="362" key="GridCell.Tab.1.center" timestamp="1577934346497">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="362" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577934346497" />
+    <state width="1877" height="362" key="GridCell.Tab.1.left" timestamp="1577934346497">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="362" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577934346497" />
+    <state width="1877" height="362" key="GridCell.Tab.1.right" timestamp="1577934346497">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="362" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577934346497" />
     <state x="461" y="182" key="SettingsEditor" timestamp="1577597266744">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
