@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0a54d1d-83d4-4027-ba0f-f4f697b82cca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/Lesson_04.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/Lesson_04.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/TX_nlp/Project_01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/TX_nlp/Project_01.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +162,8 @@
       <workItem from="1577935554410" duration="65000" />
       <workItem from="1577935677777" duration="95000" />
       <workItem from="1577935814227" duration="6828000" />
-      <workItem from="1578015650125" duration="17004000" />
+      <workItem from="1578015650125" duration="82728000" />
+      <workItem from="1578308063307" duration="3330000" />
     </task>
     <servers />
   </component>
@@ -186,6 +188,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="198" key="#Inspections/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1577265937345" />
+    <state x="552" y="198" width="816" height="731" key="#Intentions" timestamp="1578308536588">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" width="816" height="731" key="#Intentions/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1578308536588" />
     <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578046566912">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
