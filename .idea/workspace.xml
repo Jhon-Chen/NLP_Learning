@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d0a54d1d-83d4-4027-ba0f-f4f697b82cca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/TX_nlp/01_POS_Tagging.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/TX_nlp/01_POS_Tagging.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/TX_nlp/Project_02.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/TX_nlp/Project_02.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/TX_nlp/Project_01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/TX_nlp/Project_01.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/LeetCode Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/LeetCode Notes.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +168,7 @@
       <workItem from="1578804262579" duration="128000" />
       <workItem from="1578804967107" duration="1931000" />
       <workItem from="1578819037046" duration="600000" />
+      <workItem from="1579158739363" duration="9383000" />
     </task>
     <servers />
   </component>
@@ -204,22 +205,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1578046563729" />
-    <state width="1877" height="362" key="GridCell.Tab.0.bottom" timestamp="1578046576290">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1579164631306">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="362" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1578046576290" />
-    <state width="1877" height="362" key="GridCell.Tab.0.center" timestamp="1578046576290">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579164631306" />
+    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1579164631306">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="362" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1578046576290" />
-    <state width="1877" height="362" key="GridCell.Tab.0.left" timestamp="1578046576290">
+    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579164631306" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1579164631306">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="362" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1578046576290" />
-    <state width="1877" height="362" key="GridCell.Tab.0.right" timestamp="1578046576290">
+    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579164631306" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1579164631306">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="362" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1578046576290" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579164631306" />
     <state width="1877" height="362" key="GridCell.Tab.1.bottom" timestamp="1578046576291">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

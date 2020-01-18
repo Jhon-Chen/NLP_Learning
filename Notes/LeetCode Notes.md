@@ -18,4 +18,6 @@ class Solution:
 
 * ![imagef0870461e00dee42.png](https://file.moetu.org/images/2020/01/15/imagef0870461e00dee42.png)
 
+* ![imagef1e6ddb8fd557ed3.png](https://file.moetu.org/images/2020/01/16/imagef1e6ddb8fd557ed3.png)
+
   
