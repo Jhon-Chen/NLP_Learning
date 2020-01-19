@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d0a54d1d-83d4-4027-ba0f-f4f697b82cca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/TX_nlp/Project_01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/TX_nlp/Project_01.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes/LeetCode Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/LeetCode Notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/TX_nlp/01_POS_Tagging.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/TX_nlp/01_POS_Tagging.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/Reminder.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Reminder.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +169,7 @@
       <workItem from="1578804967107" duration="1931000" />
       <workItem from="1578819037046" duration="600000" />
       <workItem from="1579158739363" duration="9383000" />
+      <workItem from="1579439048708" duration="2507000" />
     </task>
     <servers />
   </component>
