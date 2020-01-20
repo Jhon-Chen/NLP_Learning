@@ -278,4 +278,59 @@ $$
   * 元素表示从词性$Z_1$到$Z_2$的转变的概率
 
 * **程序思想:**
+  
   1. 考虑到我们后面都是使用对应的下标来取字典中的词（对于词性也是使用相同的操作），所以我们在处理数据时要先建立他们与下标对应的字典
+  
+  2. 使用NumPy定义π，A，B：
+  
+     π使用`np.zeros(N)`初始化一个长度为N（number of tags）的元素为0的向量；
+  
+     同理，A定义`np.zeros((N, M))`矩阵A，N（number of tags），M（number of words in dictionary）；
+  
+     B定义`np.zeros((N, N))`矩阵B，N（number of tags），表示词性状态转换矩阵 ，表示由状态i转换为状态j的概率
+  
+  3.  计算π：
+  
+     定义一个`pre_tag = ''`表示这是一个句子的开始，如果这是一个句子的开始，就把`pi`这个N维向量中对应的`tag`的值加一，即`pi[tagId] += 1`
+  
+  4. 计算A：
+  
+     在做完上一步的时候，紧接着可以`A[tagId][wordId] += 1`，表示对应这个`tagId`的tag下对应的word的计数加一
+     
+  5. 如果不是句子的开头，就对应A加一，然后对于词性状态转移矩阵`B[tag2Id[prev_tag]][tagId]`从前一个状态转换到下一个状态的计数加一
+  
+  6. 如果是`item[0] == '.'`则表示句子到了结尾，将`prev_tag`重置为空，否则存入当前的词性`prev_tag = item[1].rstrip()` 
+  
+  7. 加下来我们通过简单的数学操作把这些次数转换为概率
+  
+  8. 接下来使用动态规划的**状态转移方程**，求出概率最大的路径（维特比算法！重点！！！）
+  
+  9. 定义维特比算法：（画图有助于理解！）
+  
+     * 对于输入的sentence进行切分，并返回对应单词的ID
+  
+     * 定义一个`dp = np.zeros((T, N))`，每列是词库，每行是对应的词性tag
+  
+     * 由于维特比算法递推需要知道第一行，故先定义好第一行的值：
+  
+       ```python
+       for j in range(N):
+       	dp[0][j] = log(pi[j] + log(A[j][x[0]])
+       ```
+  
+     * 接下来就是对与剩下每一个单词对应的每一个词性的概率求值（定义一个数组存储路径）：
+  
+       ```python
+       np.array([[0 for x in range(N)] for y in range(T)])
+       for i in range(1, T):
+       	for j in range(N):
+       		dp[i][j] = -99999999
+       		for k in range(N)
+       		score = dp[i-1][k] + log(A[j][x[i] + log(B[k][j])
+       		if score > dp[i][j]:
+       			dp[i][j] = score
+                    ptr[i][j] = k         
+       ```
+  
+     
+
