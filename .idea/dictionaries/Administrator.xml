@@ -13,6 +13,7 @@
       <w>filterword</w>
       <w>frequences</w>
       <w>froninter</w>
+      <w>granbluefansty</w>
       <w>grapg</w>
       <w>haversine</w>
       <w>idxs</w>
@@ -25,6 +26,7 @@
       <w>probablity</w>
       <w>probaility</w>
       <w>qlist</w>
+      <w>scrapy</w>
       <w>sklearn</w>
       <w>tfidf</w>
       <w>toarray</w>
