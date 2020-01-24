@@ -349,5 +349,49 @@ $$
 
    
 
+## F1-Measure
 
+![imageb5bcd4bb4a8d9385.png](https://file.moetu.org/images/2020/01/22/imageb5bcd4bb4a8d9385.png)
+
+* 反映了模型的稳健性
+
+
+
+## Logistic Regression（逻辑回归）
+
+![image5661fb0f0205a384.png](https://file.moetu.org/images/2020/01/22/image5661fb0f0205a384.png)
+
+![image4fb453b24df7b72a.png](https://file.moetu.org/images/2020/01/22/image4fb453b24df7b72a.png)
+
+* 判断一个模型是不是线性的主要在于判断这个模型的决策边界（Decision Bound）是线性还是非线性的
+
+
+
+## 模型的实例化（确定w和b）
+
+* 模型的实例化相当于定义一个明确的目标函数
+* ![image038ea20b4f108daa.png](https://file.moetu.org/images/2020/01/24/image038ea20b4f108daa.png)
+
+
+
+## 梯度下降
+
+* 在其实凸函数的前提下，可以使用优化算法
+* 优化算法：（类似于循环一步步找到最优值）
+  * GD
+  * SGD（数据量巨大时）
+  * Adagrand
+* 1. 随机初始一个w值和b值
+  2. 开始循环，每次循环中开始更新w和b
+  3. 设置好学习率（步长一般会越来越小）
+  4. 经过足够多的循环之后就可以到达那个近似点
+* 什么时候停止
+  1. 考虑用真实函数与之作比较，当误差小于定值时可以停止迭代
+  2. 考虑两次迭代之间w和b的插值，小于定值时可以停止迭代
+  3. 考虑通过一个验证集来验证他的准确性（early stopping）
+  4. 考虑设定一个指定的次数让他循环（fixed iteration）
+
+
+
+## 随机梯度下降
 
