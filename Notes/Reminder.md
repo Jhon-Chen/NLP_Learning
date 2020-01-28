@@ -395,3 +395,84 @@ $$
 
 ## 随机梯度下降
 
+* 随机梯度下降
+  * 首先有一个外层的循环	
+  * 在内层循环前有一个`shuffle`操作，将样本重新排列
+  * 内层循环样本次（n次）
+  * 这样可以使得每一次循环都会更新w和b（但是步长会比之前的更小）
+* Mini-batch Gradient Descent，在所有的n个样本里选择m个样本
+  * 对每一个mini-batch进行操作
+* 对比：
+  * 梯度下降比较稳定
+  * 随机梯度下降受噪声影响较大
+  * Mini-Batch比较折中，但是每次选的batch的大小需要注意
+
+
+
+## 逻辑回归中线性模型趋向无穷大问题
+
+* 假设我们的数据是线性可分的，那就会导致w变成无穷大
+
+  * 线性可分指的是类似二分类这种可以完美分割的
+
+* 这时候就会考虑用到正则化技术，避免w变得非常的大
+
+* 在原来的目标函数后加上一个二范数正则化项：目标函数 + 正则部分
+
+* 式子中的 $\lambda$ 就是超参数，他决定了对 $w$ 的限制，起到了平衡的作用
+
+* ![imagedffd8ba200f290b6.png](https://file.moetu.org/images/2020/01/28/imagedffd8ba200f290b6.png)
+
+* 梯度下降使用正则化
+
+  ![imageceec83110ef05091.png](https://file.moetu.org/images/2020/01/28/imageceec83110ef05091.png)
+
+
+
+## 模型复杂度和过拟合
+
+* 泛化能力（Generalization Capability）
+* 在训练数据上的结果和在测试数据上的结果差别不大，那么这个模型的表现越好
+* 仅仅是训练集上表现好在测试集上表现失常就是过拟合
+
+1. 模型本身的选择：LR、SVM、Neural NetWork、deep learning
+
+2. 模型的参数个数：Neural Network的隐藏层神经元数
+
+3. 模型的参数空间选择：正则，在对应的参数空间中选择让模型比较简单的部分
+
+4. 模型拟合过少的样本：样本很少是容易造成过拟合
+
+   ![imageb94c3efcf417c1dd.png](https://file.moetu.org/images/2020/01/28/imageb94c3efcf417c1dd.png)
+
+
+
+## 避免过拟合的方法
+
+* 减少模型的参数
+* 选择更简单的参数空间
+
+
+
+## 正则化介绍
+
+* 正则化其实是对关系式里的权重做调整
+
+  * ![image75a3c2d9761b5179.png](https://file.moetu.org/images/2020/01/28/image75a3c2d9761b5179.png)
+
+* L1-Norm：（sparse solution）
+
+  * 使很多的小值变为零，直接删除这个特征的影响
+  * 比如LASSO回归
+
+* L2-Norm：（non-sparse solution）
+
+  * 可以使得其中一些w都很小接近于0，削弱某些特征的影响
+  * 越小的参数说明模型越简单，越简单的模型越不容易出现过拟合
+  * 比如Ridge回归
+
+* 可以同过绘图的方式来分析，假定 $\theta$ 是二维的：
+
+  ![image4ed6660c9d818a6e.png](https://file.moetu.org/images/2020/01/28/image4ed6660c9d818a6e.png)
+
+* 可以结合L1和L2
