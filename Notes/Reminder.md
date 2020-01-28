@@ -260,7 +260,7 @@ $$
 
 
 
-## POS-Tagging（词性标注实战）
+## 实战：POS-Tagging（词性标注）
 
 ![imagecd04d61b0e407a2b.png](https://file.moetu.org/images/2020/01/19/imagecd04d61b0e407a2b.png)
 
@@ -476,3 +476,9 @@ $$
   ![image4ed6660c9d818a6e.png](https://file.moetu.org/images/2020/01/28/image4ed6660c9d818a6e.png)
 
 * 可以结合L1和L2
+
+
+
+## 实战：情绪识别（Affective Computing）
+
+* 

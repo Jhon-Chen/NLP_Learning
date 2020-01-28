@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d0a54d1d-83d4-4027-ba0f-f4f697b82cca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/crawlers.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Notes/Reminder.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Reminder.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -29,6 +27,7 @@
       <option value="Artificial_Intelligence_For_NLP\Lesson_03.ipynb" />
       <option value="Artificial_Intelligence_For_NLP\NLP\Lesson_01.ipynb" />
       <option value="Artificial_Intelligence_For_NLP\TX_nlp\01_POS_Tagging.ipynb" />
+      <option value="Artificial_Intelligence_For_NLP\TX_nlp\Project_03.ipynb" />
     </option>
   </component>
   <component name="ProjectId" id="1V0YIRQEatvbVAjTyCEFfLGs6bc" />
@@ -222,6 +221,8 @@
       <workItem from="1579439048708" duration="2507000" />
       <workItem from="1579489773287" duration="5578000" />
       <workItem from="1579589659100" duration="6020000" />
+      <workItem from="1580210049335" duration="499000" />
+      <workItem from="1580210574474" duration="887000" />
     </task>
     <servers />
   </component>

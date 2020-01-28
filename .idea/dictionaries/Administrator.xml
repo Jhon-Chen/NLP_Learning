@@ -4,6 +4,7 @@
       <w>alist</w>
       <w>argmax</w>
       <w>beyonce</w>
+      <w>dastset</w>
       <w>datasource</w>
       <w>dlat</w>
       <w>dlon</w>
@@ -17,6 +18,7 @@
       <w>grapg</w>
       <w>haversine</w>
       <w>idxs</w>
+      <w>isear</w>
       <w>jupyters</w>
       <w>languge</w>
       <w>matplotlib</w>
@@ -27,6 +29,7 @@
       <w>probaility</w>
       <w>qlist</w>
       <w>scrapy</w>
+      <w>sents</w>
       <w>sklearn</w>
       <w>tfidf</w>
       <w>toarray</w>
