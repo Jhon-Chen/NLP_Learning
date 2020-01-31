@@ -357,12 +357,13 @@ $$
 
 
 
-## Logistic Regression（逻辑回归）
+## Logistic Regression（逻辑回归）手撕
 
 ![image5661fb0f0205a384.png](https://file.moetu.org/images/2020/01/22/image5661fb0f0205a384.png)
 
 ![image4fb453b24df7b72a.png](https://file.moetu.org/images/2020/01/22/image4fb453b24df7b72a.png)
 
+* 将原始的条件结果输入到逻辑函数中（**即激活函数sigmoid**），通过激活函数可以将原始的条件转换为0~1之间的一个概率
 * 判断一个模型是不是线性的主要在于判断这个模型的决策边界（Decision Bound）是线性还是非线性的
 
 
@@ -462,7 +463,7 @@ $$
 
 * L1-Norm：（sparse solution）
 
-  * 使很多的小值变为零，直接删除这个特征的影响
+  * 使很多的小值变为零，直接删除这个特征的影响，具有稀疏性
   * 比如LASSO回归
 
 * L2-Norm：（non-sparse solution）
@@ -481,4 +482,77 @@ $$
 
 ## 实战：情绪识别（Affective Computing）
 
-* 
+1. 读取文件：导入`numpy`和`pandas`模块，使用`pandas`的 `pd.read_csv`读取指定的`csv`文件
+
+2. 切分测试集和训练集：使用`sklearn`的`train_test_split`模块
+
+   * `test_size`：测试集的大小，一般为`float`
+   * `random_state`：随机数种子，不同的种子会造成不同的随机采样结果。相同的种子采样结果相同。
+   * `return`：返回 训练集特征值，测试接特征值，训练集标签，测试集标签（注意他们的顺序）
+
+3. 数据特征提取：使用`sklearn`的`feature_extraction`API（将图像或文字等转换为可进行机器学习的数字特征）
+
+   * **我们把实例化的Transformer称为转换器**
+
+   * 使用Tfidf进行文本特征提取（Tfidf用于评估一个词或字对于文件集或语料库的重要程度）
+
+   * 实例化类：`vectorizer = TfidfVectorizer()`
+
+   * 调用类的`fit_transform`方法输入数据并转换（转换后的是tfidf的向量矩阵）
+
+     `vectorizer.fit_transform(x_train)` 注意，`fit_transform`主要用于训练集的数据处理，对应的测试集，只需`transform`即可，`fit`相当于是让模型使用训练集数据训练的一个过程
+
+4. 先使用逻辑回归模型：
+
+   * **我们把具体实现算法的API称之为估计器（estimator）**
+
+   * 从`sklearn.linear_model`中导入`LogisticRegression`
+   * API：`sklearn.linear_model.LogisticRegression(solver='liblinear', penalty='l2', C=1.0)`
+     * solver：优化求解方式（默认使用开源的liblinear库实现， 内部使用了坐标轴下降法来迭代优化损失函数）—— `sag`：随机平均梯度下降
+     * penalty：正则化的种类
+     * C：正则化的力度（相当于正则里的 $\lambda$ 的大小程度 ）
+     * 默认情况下将类别数量少的当做正例
+   * 创建逻辑回归的模型：`lr = LogisticRegression(C=2)`
+   * 训练模型：`lr.fit(x_train, y_train)`
+   * 查看在测试集上的准确性：`lr.fit(x_train, y_train).score(x_test, y_test)`
+
+5. 现在进行交叉验证：
+
+   * 为了实现超参数的选择，在训练集中会取出部分作为**验证集**，每次取不同的验证集，取结果最好的，这里不涉及测试集，不然就相当于是作弊了
+
+   * 交叉验证是为了让评估的模型更加准确可信
+
+   * 超参数搜索（网格搜索 Grid Search）
+
+     * 通常情况下，有很多参数是需要手动指定的，这就叫超参数。但是手动过程繁杂，所以需要对模型预设集中超参数组合。每组超参数都使用交叉验证来进行评估，最终选出最优参数组合建立模型。
+
+   * API：`sklearn.model_section.GridSearchCV(estimator, param_grid=None, cv=None)`
+
+     * 用于对估计器的指定参数值进行详尽的搜索
+
+     * `estimator`：估计器对象
+
+     * `param_grid`：估计器参数（dict）比如`{n_neighbors:[1, 3, 5]}`
+
+     * cv：指定机制交叉验证
+
+     * fit：输入训练数据
+
+     * score：准确率
+
+     * 结果分析：
+
+       * bestscore：在交叉验证中最好的结果
+
+       * bestestimator：最好的参数模型
+
+       * cvresults：每次交叉验证后的验证集准确率结果和训练集准确率结果
+
+         ![image27039c8fc891c955.png](https://file.moetu.org/images/2020/01/31/image27039c8fc891c955.png)
+
+6. 通过**混淆矩阵**来查看模型的准确率与召回率
+
+   * 从`sklearn.metrics`导入`confusion_matrix`
+   * API：`confusion_matrix(y_test, clf.pre_dict(x_test))`
+
+   
