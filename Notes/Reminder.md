@@ -525,6 +525,7 @@ $$
    * 超参数搜索（网格搜索 Grid Search）
 
      * 通常情况下，有很多参数是需要手动指定的，这就叫超参数。但是手动过程繁杂，所以需要对模型预设集中超参数组合。每组超参数都使用交叉验证来进行评估，最终选出最优参数组合建立模型。
+     * 完全可以并行化，但是在我有很多超参数是计算量是非常的大的
 
    * API：`sklearn.model_section.GridSearchCV(estimator, param_grid=None, cv=None)`
 
@@ -556,3 +557,8 @@ $$
    * API：`confusion_matrix(y_test, clf.pre_dict(x_test))`
 
    
+
+
+
+## 
+
