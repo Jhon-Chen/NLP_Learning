@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0a54d1d-83d4-4027-ba0f-f4f697b82cca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes/Reminder.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Reminder.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeiMa/Notes/day_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/HeiMa/Notes/day_1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Artificial_Intelligence_For_NLP/TX_nlp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HeiMa" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -223,6 +222,7 @@
       <workItem from="1580210049335" duration="499000" />
       <workItem from="1580210574474" duration="15375000" />
       <workItem from="1580801530810" duration="2421000" />
+      <workItem from="1580890893161" duration="102000" />
     </task>
     <servers />
   </component>
@@ -255,10 +255,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="267" y="178" width="1092" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1579613388741" />
-    <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1578046563729">
+    <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1580890994023">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1578046563729" />
+    <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1580890994023" />
     <state width="1877" height="827" key="GridCell.Tab.0.bottom" timestamp="1579614657394">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

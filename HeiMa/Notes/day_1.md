@@ -83,6 +83,9 @@ TensorFlow，Caffe2，Keras，Theano，PyTorch等等。
 * 还可以提高模型的鲁棒性
 * 缓解梯度消失问题
 * 加速模型收敛速度
+* 线性，只有满足以下两个条件时：
+  * f(kx) = k f(x)
+  * f(x + v) = f(x) + f(v)
 
 ### PyTorch的使用
 
@@ -140,7 +143,7 @@ TensorFlow，Caffe2，Keras，Theano，PyTorch等等。
 
    10. tensor的计算，所有带下划线的方法就是直接对原数据进行修改
 
-       * tensor + tensor 对应位置相加，如果形状相同进行广播
+       * tensor + tensor 对应位置相加，如果形状相同进行广播，需要对应为相同或者为1
        * tensor + 数字 tensor中的每一个数字都加这个数字
        * 带下划线的计算，直接对原数据进行修改
 
