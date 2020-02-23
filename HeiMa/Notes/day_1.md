@@ -117,7 +117,7 @@ TensorFlow，Caffe2，Keras，Theano，PyTorch等等。
 
       * `tensor.shape()` 可以在其中传参，传参表示获取的是第几个维度的数据
 
-   4. tensor的变形和装置
+   4. tensor的变形和转置
 
       * `tensor.view(a,b,c,...)` 将原张量改变为...
 

@@ -1,5 +1,7 @@
 # day_2
 
+[toc]
+
 
 
 ### 梯度下降
@@ -64,7 +66,7 @@
 
         1. `init`：自定义的方法实现的位置
         2. `forward`：完成一次向前计算的过程
-        3. `nn.Linear`为torch预定义好的现象模型，也被称为**全链接层**，传入的参数为输入的数量，输出的数量`(in_features, out_features)`，是不算`(batch_size)`的列数
+        3. `nn.Linear`为torch预定义好的线性模型，也被称为**全链接层**，传入的参数为输入的数量，输出的数量`(in_features, out_features)`，是不算`(batch_size)`的列数
         4. `nn.Module`定义了`__call__`方法，实现的就是调用`forward`方法，即`Lr`的实例，能够直接被传入参数调用，实际上调用的是`forward`方法并传入参数
 
       * **optimizer优化器类：**
@@ -74,7 +76,7 @@
         > 优化器类都是由`torch.optim`提供的，例如
         >
         > 1. `torch.optim.SGD(参数，学习率)`
-        > 2. `torch.optom.Adam(参数，学习率)`
+        > 2. `torch.optim.Adam(参数，学习率)`
 
         注意：
 

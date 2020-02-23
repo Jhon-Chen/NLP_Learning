@@ -15,7 +15,7 @@ class MyModel(nn.Module):
         self.lr2 = nn.Linear(10, 20)
         self.lr3 = nn.Linear(20, 1)
 
-    def forward(self, x): # 完成一次向前计算
+    def forward(self, x):  # 完成一次向前计算
         # y_predict = x * self.w + self.b
         # return y_predict
         # return self.lr(x)

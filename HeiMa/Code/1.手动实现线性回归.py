@@ -30,7 +30,7 @@ for k in range(500):
     print(k, loss.item())
 print(w, b)
 
-plt.figure(figsize=(20,8))
+plt.figure(figsize=(20, 8))
 plt.scatter(x.numpy(), y_true.numpy())
 
 y_pred = x * w + b
