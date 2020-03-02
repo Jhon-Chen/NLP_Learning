@@ -219,3 +219,67 @@ if os.path.exists("./model_save/model.pkl"):
    * 最大值的位置获取的方法可以使用`torch.max`返回最大值和最大值的位置
    * 返回最大值的位置后，和真实值`([batch_size])`进行对比，相同表示预测成功
 
+
+
+## 循环神经网络和自然语言处理介绍
+
+
+
+### 文本的`tokenization` （分词）
+
+1. 概念和工具的介绍
+
+   `tokenizaiton`就是通常所说的分词，分出的每一个词语我们把它称为`token`。
+
+   常见的分词工具很多，比如：
+
+   * `jieba`分词
+   * 清华大学的分词工具THULAC
+
+2. 中英文的分词方法
+
+   * 把句子转化为词语
+   * 把句子转化为单字
+
+### N-gram模型
+
+前面提到，句子可以用单个字，词来表示，但是有的时候，我们也可以用2个，3个或者多个词来表示。
+
+N-gram是一组一组的词语，其中的N表示能够被一起使用的词的数量。
+
+### 向量化
+
+因为文本不能直接被模型计算，所以需要将其转化为向量
+
+把文本转化为向量有两种方法：
+
+1. 转化为one-hot编码
+2. word emebdding
+
+**word emebdding**
+
+word emebdding是深度学习中表示文本常用的一种方法。和one-hot编码不同，word embedding 使用了浮点型的稠密矩阵来表示token。根据词典的大小，我们的向量通常使用不同的维度，例如100，256，300等。其中向量的每一个值是一个参数，其初始值是随机生成的，之后会在训练中进行学习获得。
+
+**word emebdding API**
+
+`torch.nn.Embedding(num_embeddings, embedding_dim)`
+
+里面的值都是参数，都会在后续通过训练得到。
+
+参数介绍：
+
+* `num_embedding`：词典的大小
+* `embedding_dim`：`embeddimg`的维度，每一个词的维度
+
+使用方法：
+
+```python
+embedding = nn.Embedding(vocab_size, 300) # 实例化
+input_embeded = embedding(input)  # 进行embedding操作
+```
+
+**数据形状的变化**
+
+思考：每个batch中的每个句子有10个词语，经过形状为word embedding(10, 4)之后，原来的句子会变成什么形状？
+
+每个词语用长度为4的向量表示，所以，最终句子会变为`[batch_size, 10, 4]`的形状。增加了一个维度，这个维度是embedding。

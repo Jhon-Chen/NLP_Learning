@@ -25,7 +25,7 @@ optimizer = optim.Adam(model.parameters(), lr=1e-3)
 # 2. 进入循环，进行训练
 def train(epoch):
     train_dataloader = get_dataloader(train=True)
-    bar = tqdm(enumerate(train_dataloader), total=len(train_dataloader))
+    bar = tqdm(train_dataloader, total=len(train_dataloader))
     for idx, (input, target) in enumerate(train_dataloader):
         input = input.to(conf.device)
         target = target.to(conf.device)

@@ -16,7 +16,6 @@ import os
 model = MnistModel().to(conf.device)
 
 
-# 2. 进入循环，进行训练
 def eval():
     # 模型的加载，先判断是否存在
     if os.path.exists("./model_save/model.pkl"):
